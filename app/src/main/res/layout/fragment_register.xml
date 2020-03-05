@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey"
+    tools:context=".Register">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/ivRegister"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_account_circle_black_24dp"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="This is name user"
+            android:id="@+id/ed_name_user"
+            android:drawableStart="@drawable/ic_account_circle_black_24dp"
+            android:drawablePadding="10dp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="918390128309"
+            android:maxLines="1"
+            android:inputType="number"
+            android:id="@+id/ed_phone_number"
+            android:drawableStart="@drawable/ic_phone_black_24dp"
+            android:drawablePadding="10dp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="This is mail"
+            android:id="@+id/ed_email"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawablePadding="10dp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="This is location"
+            android:id="@+id/ed_location"
+            android:drawableStart="@drawable/ic_my_location_black_24dp"
+            android:drawablePadding="10dp"/>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_signup_register"
+            android:text="accept"
+            android:textColor="@color/colorBclack"
+            android:background="@drawable/border_button"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</FrameLayout>
